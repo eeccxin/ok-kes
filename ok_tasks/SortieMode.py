@@ -14,7 +14,7 @@ class SortieMode(TriggerTask):
         self.all_texts = []
         self.default_config["_enabled"] = False
         self.default_config["路线优先级"] = ["休息", "事件", "小怪", "boss"]
-        self.default_config["主战员优先级"] = ["尼娅", "麦格纳", "米卡", "卡修斯"]
+        self.default_config["主战员优先级"] = ["米卡", "尼娅", "帝菲拉", "奥莱娅","麦格纳", "艾米尔", "玛丽贝儿", "雷伊", "卡修斯",  "阿黛海特",  "赛琳娜"]
         self.default_config["出战主战员优先级"] = ["海德玛丽", "九", "力", "绯"]
         self.default_config["获得卡牌优先级"] = ["展开极光", "剑雨", "一缕光芒","缕光芒","凝聚极光"]
         self.default_config["移除卡牌列表"] = ["剑幕"]
